@@ -18,3 +18,6 @@ Like the good old dos but more advanced
 Task 3. Git Collaboration - done
 Now i'm can delete my repository with more powerful tool! )
 <br><img src="/task_git_collaboration/git_collaboration.png" alt="task3_done"/>
+
+Task 4. Python Basics 1 - done
+link to HackerRank profile - https://www.hackerrank.com/rekusha
