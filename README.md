@@ -4,24 +4,24 @@
 <p>## Git Collaboration</p>
 
 
-<h2>Task 1. Git Basics - done</h2>
+<h2>Task 1. ## Git Basics - #done</h2>
 <p><img src="/Git_intro/Git_intro_done.png" alt="task1_done"/></p>
 <p></p>
-<h2>Task 2. Unix Shell - done</h2>
+<h2>Task 2. ## Unix Shell - #done</h2>
 <p>Like the good old dos but more advanced</p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_1.png" alt="task2_done"/></p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_2.png" alt="task2_done"/></p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_3.png" alt="task2_done"/></p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_4.png" alt="task2_done"/></p>
 
-<h2>Task 3. Git Collaboration - done</h2>
+<h2>Task 3. ## Git Collaboration - #done</h2>
 <p>Now i'm can delete my repository with more powerful tool! )</p>
 <p><img src="/task_git_collaboration/git_collaboration.png" alt="task3_done"/></p>
 
-<h2>Task 4. Python Basics 1 - done</h2>
+<h2>Task 4. ## Python Basics 1 - #done</h2>
 <p>link to HackerRank profile - https://www.hackerrank.com/rekusha</p>
 
-<h2>Task 5. Memory Management - done</h2>
+<h2>Task 5. ## Memory Management - #done</h2>
 <p>add answers to the following questions:</p>
 <p>What's going to happen if program reaches maximum limit of stack?</p>
 <p>we have a <i>stack overflow</i> and the program receives a <i>segmentation fault</i></p>
@@ -242,3 +242,6 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 <p>7fe2a3d7f000-7fe2a3d83000 - Memory Mapping Segment</p>
 <p>I hope i undestand idea of memory managment, but without true task not sure... yet.</p>
 <p></p>
+<h2>Task 6. ## TCP. UDP. Network - #done</h2>
+<p><img src="/task_networks/internet101_done.png" alt="task6_done"/></p>
+<p><img src="/task_networks/networking_for_web_developers.png" alt="task6_done"/></p>
