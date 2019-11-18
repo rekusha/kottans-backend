@@ -5,23 +5,38 @@
 
 
 <h2>Task 1. ## Git Basics - #done</h2>
+<details>
+<pre>
 <p><img src="/Git_intro/Git_intro_done.png" alt="task1_done"/></p>
 <p></p>
+</pre>
+</details>
 <h2>Task 2. ## Unix Shell - #done</h2>
+<details>
+<pre>
 <p>Like the good old dos but more advanced</p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_1.png" alt="task2_done"/></p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_2.png" alt="task2_done"/></p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_3.png" alt="task2_done"/></p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_4.png" alt="task2_done"/></p>
-
+</pre>
+</details>
 <h2>Task 3. ## Git Collaboration - #done</h2>
+<details>
+<pre>
 <p>Now i'm can delete my repository with more powerful tool! )</p>
 <p><img src="/task_git_collaboration/git_collaboration.png" alt="task3_done"/></p>
-
+</pre>
+</details>
 <h2>Task 4. ## Python Basics 1 - #done</h2>
+<details>
+<pre>
 <p>link to HackerRank profile - https://www.hackerrank.com/rekusha</p>
-
+</pre>
+</details>
 <h2>Task 5. ## Memory Management - #done</h2>
+<details>
+<pre>
 <p>add answers to the following questions:</p>
 <p>What's going to happen if program reaches maximum limit of stack?</p>
 <p>we have a <i>stack overflow</i> and the program receives a <i>segmentation fault</i></p>
@@ -241,11 +256,20 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 <p>7fff37dcf000-7fff37df0000 - stack</p>
 <p>7fe2a3d7f000-7fe2a3d83000 - Memory Mapping Segment</p>
 <p>I hope i undestand idea of memory managment, but without true task not sure... yet.</p>
+</pre>
+</details>
 <p></p>
 <h2>Task 6. ## TCP. UDP. Network - #done</h2>
+<details>
+<pre>
 <p><img src="/task_networks/internet101_done.png" alt="task6_done"/></p>
 <p><img src="/task_networks/networking_for_web_developers.png" alt="task6_done"/></p>
+</pre>
+</details>
 <p></p>
+<h2>Task 7. ##  Http & Https — #done</h2>
+<details>
+<pre>
 <p>$ curl https://api.github.com/users/rekusha - {user_info_dict} (json)</p>
 <p>$ curl -i https://api.github.com/users/rekusha - answer header by server + {user_info_dict} (json)</p>
 <p>$ curl  https://api.github.com/gists/starred - answer "Requires authentication" (json) </p>
@@ -268,3 +292,5 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 <p>PUT 'add new info about pet's health .append{medical_history:'medical_history'}' | status code 200 or 204</p>
 <p>POST 'assign a pet to a particular doctor in the clinic {name:'name', doctor:'doctor'} ' | status code 200 or 204</p>
 <p>POST 'register an appointment for a pet. {name:'name', doctor:'doctor', datetime:'datetime', medical_history:'medical_history'}' | status code 205</p>
+</pre>
+</details>
