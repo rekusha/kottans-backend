@@ -245,3 +245,26 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 <h2>Task 6. ## TCP. UDP. Network - #done</h2>
 <p><img src="/task_networks/internet101_done.png" alt="task6_done"/></p>
 <p><img src="/task_networks/networking_for_web_developers.png" alt="task6_done"/></p>
+<p></p>
+<p>$ curl https://api.github.com/users/rekusha - {user_info_dict} (json)</p>
+<p>$ curl -i https://api.github.com/users/rekusha - answer header by server + {user_info_dict} (json)</p>
+<p>$ curl  https://api.github.com/gists/starred - answer "Requires authentication" (json) </p>
+<p>$ curl --user "rekusha:BLABLABLA" https://api.github.com/gists/starred - "Bad credentials" (json)</p>
+<p>$ curl --user "rekusha:***" https://api.github.com/gists/starred - only ['\n'] in answer </p>
+<p>$ curl --user "rekusha" https://api.github.com/gists/starred - password reuqired prompt</p>
+<p></p>
+<p>$ curl --user "rekusha:***" -X POST -d '{"title":"Test", "body":"issue for Http & Https task", "labels":["issue_kottans_test"]}' https://api.github.com/repos/rekusha/kottans-backend/issues - Create new issue in my repository</p>
+<p></p>
+<p><b>1. Name at least three possible negative consequences of not using https</b></p>
+<p>all requests and responses can be intercepted and substituted</p>
+<p>all private data can be compromised</p>
+<p>can't check remote site for valid</p>
+<p><b>2. Explain the main idea behind public key cryptography in few sentences</b></p>
+<p>public key cryptography uses a pair of keys to encrypt and decrypt data to protect it against unauthorized access or use. user create a public and private key pair. if other users want to encrypt data, they use the intended recipient's public key.</p>
+<p><b>3. You are creating an application for pet clinic. You need to implement the following functionality</b></p>
+<p>POST 'add new pet {name:'name', age:'age', breed:'breed', owner_name:'owner_name', medical_history:'medical_history')' | status code 200 or 204 </p>
+<p>GET 'serch pet by name' | status code 200</p>
+<p>PUT 'change name of an existing pet .update{name:'new_name'}' | status code 200 or 204</p>
+<p>PUT 'add new info about pet's health .append{medical_history:'medical_history'}' | status code 200 or 204</p>
+<p>POST 'assign a pet to a particular doctor in the clinic {name:'name', doctor:'doctor'} ' | status code 200 or 204</p>
+<p>POST 'register an appointment for a pet. {name:'name', doctor:'doctor', datetime:'datetime', medical_history:'medical_history'}' | status code 205</p>
