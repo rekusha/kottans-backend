@@ -1,9 +1,4 @@
 <p>Alexandr Rekun and there is my kottans-backend</p>
-<p>## Git Basics</p>
-<p>## Unix Shell</p>
-<p>## Git Collaboration</p>
-
-
 <h2>Task 1. ## Git Basics - #done</h2>
 <details>
 <pre>
