@@ -1,27 +1,37 @@
 <p>Alexandr Rekun and there is my kottans-backend</p>
-<p>## Git Basics</p>
-<p>## Unix Shell</p>
-<p>## Git Collaboration</p>
-
-
 <h2>Task 1. ## Git Basics - #done</h2>
+<details>
+<pre>
 <p><img src="/Git_intro/Git_intro_done.png" alt="task1_done"/></p>
 <p></p>
+</pre>
+</details>
 <h2>Task 2. ## Unix Shell - #done</h2>
+<details>
+<pre>
 <p>Like the good old dos but more advanced</p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_1.png" alt="task2_done"/></p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_2.png" alt="task2_done"/></p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_3.png" alt="task2_done"/></p>
 <p><img src="/Unix_shell/linuxsurvival_quiz_4.png" alt="task2_done"/></p>
-
+</pre>
+</details>
 <h2>Task 3. ## Git Collaboration - #done</h2>
+<details>
+<pre>
 <p>Now i'm can delete my repository with more powerful tool! )</p>
 <p><img src="/task_git_collaboration/git_collaboration.png" alt="task3_done"/></p>
-
+</pre>
+</details>
 <h2>Task 4. ## Python Basics 1 - #done</h2>
+<details>
+<pre>
 <p>link to HackerRank profile - https://www.hackerrank.com/rekusha</p>
-
+</pre>
+</details>
 <h2>Task 5. ## Memory Management - #done</h2>
+<details>
+<pre>
 <p>add answers to the following questions:</p>
 <p>What's going to happen if program reaches maximum limit of stack?</p>
 <p>we have a <i>stack overflow</i> and the program receives a <i>segmentation fault</i></p>
@@ -241,11 +251,48 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 <p>7fff37dcf000-7fff37df0000 - stack</p>
 <p>7fe2a3d7f000-7fe2a3d83000 - Memory Mapping Segment</p>
 <p>I hope i undestand idea of memory managment, but without true task not sure... yet.</p>
+</pre>
+</details>
 <p></p>
 <h2>Task 6. ## TCP. UDP. Network - #done</h2>
+<details>
+<pre>
 <p><img src="/task_networks/internet101_done.png" alt="task6_done"/></p>
 <p><img src="/task_networks/networking_for_web_developers.png" alt="task6_done"/></p>
+<<<<<<< HEAD
 
 
 <h2>Task 8. ## Data Structures - #done</h2>
 <p>Just done. Linked List is very powerful data structure.</p>
+=======
+</pre>
+</details>
+<p></p>
+<h2>Task 7. ##  Http & Https — #done</h2>
+<details>
+<pre>
+<p>$ curl https://api.github.com/users/rekusha - {user_info_dict} (json)</p>
+<p>$ curl -i https://api.github.com/users/rekusha - answer header by server + {user_info_dict} (json)</p>
+<p>$ curl  https://api.github.com/gists/starred - answer "Requires authentication" (json) </p>
+<p>$ curl --user "rekusha:BLABLABLA" https://api.github.com/gists/starred - "Bad credentials" (json)</p>
+<p>$ curl --user "rekusha:***" https://api.github.com/gists/starred - only ['\n'] in answer </p>
+<p>$ curl --user "rekusha" https://api.github.com/gists/starred - password reuqired prompt</p>
+<p></p>
+<p>$ curl --user "rekusha:***" -X POST -d '{"title":"Test", "body":"issue for Http & Https task", "labels":["issue_kottans_test"]}' https://api.github.com/repos/rekusha/kottans-backend/issues - Create new issue in my repository</p>
+<p></p>
+<p><b>1. Name at least three possible negative consequences of not using https</b></p>
+<p>all requests and responses can be intercepted and substituted</p>
+<p>all private data can be compromised</p>
+<p>can't check remote site for valid</p>
+<p><b>2. Explain the main idea behind public key cryptography in few sentences</b></p>
+<p>public key cryptography uses a pair of keys to encrypt and decrypt data to protect it against unauthorized access or use. user create a public and private key pair. if other users want to encrypt data, they use the intended recipient's public key.</p>
+<p><b>3. You are creating an application for pet clinic. You need to implement the following functionality</b></p>
+<p>POST 'add new pet {name:'name', age:'age', breed:'breed', owner_name:'owner_name', medical_history:'medical_history')' | status code 200 or 204 </p>
+<p>GET 'serch pet by name' | status code 200</p>
+<p>PUT 'change name of an existing pet .update{name:'new_name'}' | status code 200 or 204</p>
+<p>PUT 'add new info about pet's health .append{medical_history:'medical_history'}' | status code 200 or 204</p>
+<p>POST 'assign a pet to a particular doctor in the clinic {name:'name', doctor:'doctor'} ' | status code 200 or 204</p>
+<p>POST 'register an appointment for a pet. {name:'name', doctor:'doctor', datetime:'datetime', medical_history:'medical_history'}' | status code 205</p>
+</pre>
+</details>
+>>>>>>> 8e4f82edacd0dc175f4b0b2a39a8c645138c2098
