@@ -245,3 +245,7 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 <h2>Task 6. ## TCP. UDP. Network - #done</h2>
 <p><img src="/task_networks/internet101_done.png" alt="task6_done"/></p>
 <p><img src="/task_networks/networking_for_web_developers.png" alt="task6_done"/></p>
+
+
+<h2>Task 8. ## Data Structures - #done</h2>
+<p>Just done. Linked List is very powerful data structure.</p>
