@@ -266,3 +266,9 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 <details>
 <p>Just done. Linked List is very powerful data structure.</p>
 </details>
+
+<h2>Task 9. ## File System - #done</h2>
+<details>
+<p><a href="/File_System/file_system_task.py">file_system_task.py</a></p>
+<p><a href="/File_System/counter.txt">counter.txt</a></p>
+</details>
