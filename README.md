@@ -275,7 +275,8 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 
 <h2>Task 10. ## Relational Databases Basics - #done</h2>
 <details>
-[select.sql](sql_basics/select.sql)
+
+<p><a href="/sql_basics/select.sql">select.sql</a></p>
 
 ```sql
 SELECT 	person.first_name,
